@@ -1,0 +1,21 @@
+.Navbar_main{
+    background-color: #ffffff
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between
+    padding: 0 8%
+    width: 100%
+    .menu {
+        align-item: center;
+        display: flex;
+        list-style: none;
+        li {
+            color: black;
+            font-size: 16px;
+            padding: 10px 15px;
+            &:hover {
+                color: red($color: 1000)
+            }
+           }
+          }
